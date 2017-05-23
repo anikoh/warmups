@@ -1,0 +1,28 @@
+body {
+  background-color: cornflowerblue;
+}
+
+
+.wrapper {
+  list-style: none;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.movie {
+  width: 33.33333%;
+  height: 330px;
+  display: inline-block;
+  border: solid 1px black;
+  text-align: center;
+  margin: 30px;
+  vertical-align: top;
+}
+
+
+.image img {
+  width: 150px;
+  margin: 10px;
+}

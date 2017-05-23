@@ -1,0 +1,12 @@
+
+
+<% @pokemons.each do |pokemon|%>
+<div class="card">
+<h3><%= pokemon.nickname%></h3>
+<h3><%= pokemon.species%></h3>
+<h3><%= pokemon.level%></h3>
+</div>
+<%end%>
+
+
+<a href="/pokemon/new">Add new Pokemon</a>

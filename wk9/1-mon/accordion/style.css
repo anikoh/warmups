@@ -1,0 +1,46 @@
+body {
+  background-color: #292747;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  color: #ad3e58;
+}
+
+ul {
+  list-style: none;
+  border-radius: 5px;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  margin: 50px;
+  background-color: white;
+}
+
+li {
+  padding: 15px 200px 15px 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+ul:last-child {
+  border-bottom: none;
+}
+
+li:hover {
+  color: white;
+  background-color: #ad3e58;
+}
+
+
+.codingsub {
+  color: white;
+  background-color: #504e6d;
+}
+
+
+.right {
+  float: right;
+}
